@@ -7,7 +7,6 @@
 > 참고 :  [Github](https://help.github.com/categories/writing-on-github/)
 
 ## Tool
----
 모우 (Mou)
 - 운영체제 : OSX
 
@@ -20,7 +19,6 @@ Visual Studio Code
 - 운영체제 : Windows, OSX, Linux
 
 ## Background
----
 글을 써나가면서 **흐름에 끊김** 없이 각 글자에 서식을 지정해 줄 수 있어 빨리 작성할 수 있고, 
 
 인터넷에 글을 쓰는 사람을 위해 만들어지기도 했다.
