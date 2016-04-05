@@ -18,6 +18,15 @@
 Visual Studio Code
 - 운영체제 : Windows, OSX, Linux
 
+## 문법
+#### 코딩 하이라이팅
+```
+방법
+https://help.github.com/articles/creating-and-highlighting-code-blocks/
+지원
+https://github.com/github/linguist/blob/master/lib/linguist/languages.yml
+```
+
 ## Background
 글을 써나가면서 **흐름에 끊김** 없이 각 글자에 서식을 지정해 줄 수 있어 빨리 작성할 수 있고, 
 
