@@ -1,5 +1,8 @@
 ##Realm
 
+데이타 베이스가 필요 없는 간단한 앱이라서 `PreferenceManager` 를 활용해서 저장 했었는데요. 좋다고 소문난 Realm
+이 Xamarin 용으로 나왔으니, 바꿔보려고 합니다.
+
 ####Install
 
 ![그림1](http://i.imgur.com/WP8V4A7.png)
@@ -16,7 +19,36 @@ PCL 프로젝트에 설치 "패키지" 에서 오른쪽 마우스를 누르면 �
 Fody 와 Realm 이 새로 생겼네요. Fody 는 잠시 살펴봤는데 INPC 바인딩시 사용하는 거 같네요.
 일단 넘어가구요. (아직 Realm 은 글 작성 시점에 1.0 이 아닌 0.74.1 입니다.) 
 
-데이타 베이스가 필요 없는 간단한 앱이라서 `PreferenceManager` 를 활용해서 저장 했었는데요. 좋다고 소문난 Realm
-이 Xamarin 용으로 나왔으니, 바꿔보려고 합니다.
+####Code
+
+저장 키워드로 사용할 열거형을 선언 합니다. `LOCNAME` 을 이용해 저장이 잘 되는지 확인
+해 보겠습니다.
+
+```CSharp
+public enum ESaveData 
+{
+    ... 생략 ...
+    Inform,
+    /// <summary>
+    /// 지역
+    /// </summary>
+    LOCNAME,
+    Main,
+    ... 생략...    
+}
+```
+
+`EttRealm.cs` 를 만들어 모델을 선언합니다.
+
+```CSharp
+using Realms;
+
+public class RealmData: RealmObject
+{
+    public string sKey { get; se; }
+    public string sValue { get; set; }
+}
+```
+
 
  
