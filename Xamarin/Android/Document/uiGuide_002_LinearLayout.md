@@ -97,3 +97,7 @@ LinearLayout 은 하위 레이아웃 및 View, 엘리먼트들을 가로 혹은 
 ####참조
 - https://developer.xamarin.com/guides/android/user_interface/linear_layout/
 - https://developer.xamarin.com/api/type/Android.Widget.LinearLayout/
+
+####예제소스
+
+- https://github.com/NJHouse/TILW/tree/develop/Xamarin/Android/Sample/XAndDemo
