@@ -1,0 +1,8 @@
+XAndDemo.MainActivity, XAndDemo;md5db46082bd45837bb96546ccba5fbf848.MainActivity
+XAndDemo.MainActivity, XAndDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5db46082bd45837bb96546ccba5fbf848.MainActivity
+XAndDemo.MainActivity;md5db46082bd45837bb96546ccba5fbf848.MainActivity
+xanddemo.MainActivity;md5db46082bd45837bb96546ccba5fbf848.MainActivity
+XAndDemo.LinearLayoutActivity, XAndDemo;md5db46082bd45837bb96546ccba5fbf848.LinearLayoutActivity
+XAndDemo.LinearLayoutActivity, XAndDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5db46082bd45837bb96546ccba5fbf848.LinearLayoutActivity
+XAndDemo.LinearLayoutActivity;md5db46082bd45837bb96546ccba5fbf848.LinearLayoutActivity
+xanddemo.LinearLayoutActivity;md5db46082bd45837bb96546ccba5fbf848.LinearLayoutActivity

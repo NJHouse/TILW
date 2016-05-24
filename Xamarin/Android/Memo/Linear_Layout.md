@@ -1,9 +1,8 @@
 ##LinearLayout
 
-LinearLayout 은 하위 View 엘리먼트들을 가로 혹은 세로 한 방향으로 정렬하기 위한 요소 입니다.
+LinearLayout 은 하위 레이아웃 및 View, 엘리먼트들을 가로 혹은 세로 한 방향으로 정렬하기 위한 요소 입니다.
 
-[예제코드]
-
+####예제
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
@@ -86,5 +85,15 @@ LinearLayout 은 하위 View 엘리먼트들을 가로 혹은 세로 한 방향�
 </LinearLayout>
 ```
 
-하위 LinearLayout 을 세로로 정렬하는 최상위 LinearLayout 이 있습니다. 첫번째 LinearLayout 은 하위 View 를 
+하위 LinearLayout 들을 세로로 정렬하는 최상위 LinearLayout 이 있습니다. <br />
+그 하위 첫번째 LinearLayout 은 하위 View 를 
 가로로 정렬하고, 두번째 LinearLayout 은 하위 View를 세로로 정렬하고 있습니다.
+
+####결과
+![그림](http://i.imgur.com/Sh0NkpE.png)
+
+결과 화면입니다. 
+
+####참조
+- https://developer.xamarin.com/guides/android/user_interface/linear_layout/
+- https://developer.xamarin.com/api/type/Android.Widget.LinearLayout/
