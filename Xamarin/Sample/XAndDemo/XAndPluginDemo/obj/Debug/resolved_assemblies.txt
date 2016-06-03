@@ -1,0 +1,9 @@
+D:\JUNSANG\Document\TIL\Xamarin\Sample\XAndDemo\XAndPluginDemo\obj\Debug\assemblies\XAndPluginDemo.dll
+D:\JUNSANG\Document\TIL\Xamarin\Sample\XAndDemo\XAndPluginDemo\obj\Debug\assemblies\Autofac.dll
+D:\JUNSANG\Document\TIL\Xamarin\Sample\XAndDemo\XAndPluginDemo\obj\Debug\assemblies\Mono.Android.dll
+D:\JUNSANG\Document\TIL\Xamarin\Sample\XAndDemo\XAndPluginDemo\obj\Debug\assemblies\mscorlib.dll
+D:\JUNSANG\Document\TIL\Xamarin\Sample\XAndDemo\XAndPluginDemo\obj\Debug\assemblies\System.Core.dll
+D:\JUNSANG\Document\TIL\Xamarin\Sample\XAndDemo\XAndPluginDemo\obj\Debug\assemblies\System.dll
+D:\JUNSANG\Document\TIL\Xamarin\Sample\XAndDemo\XAndPluginDemo\obj\Debug\assemblies\System.Xml.dll
+D:\JUNSANG\Document\TIL\Xamarin\Sample\XAndDemo\XAndPluginDemo\obj\Debug\assemblies\System.Runtime.Serialization.dll
+D:\JUNSANG\Document\TIL\Xamarin\Sample\XAndDemo\XAndPluginDemo\obj\Debug\assemblies\System.ServiceModel.Internals.dll

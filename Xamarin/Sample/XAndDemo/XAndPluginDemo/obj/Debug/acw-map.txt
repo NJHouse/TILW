@@ -1,0 +1,8 @@
+XAndPluginDemo.MainActivity, XAndPluginDemo;md5ae66cb164c20475f810cc2cf4c282a69.MainActivity
+XAndPluginDemo.MainActivity, XAndPluginDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5ae66cb164c20475f810cc2cf4c282a69.MainActivity
+XAndPluginDemo.MainActivity;md5ae66cb164c20475f810cc2cf4c282a69.MainActivity
+xandplugindemo.MainActivity;md5ae66cb164c20475f810cc2cf4c282a69.MainActivity
+XAndPluginDemo.App, XAndPluginDemo;md5ae66cb164c20475f810cc2cf4c282a69.App
+XAndPluginDemo.App, XAndPluginDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5ae66cb164c20475f810cc2cf4c282a69.App
+XAndPluginDemo.App;md5ae66cb164c20475f810cc2cf4c282a69.App
+xandplugindemo.App;md5ae66cb164c20475f810cc2cf4c282a69.App
