@@ -11,9 +11,10 @@ namespace XAndPluginDemo
 			this.diRepo = diParam;
 		}
 
-		public IDiCount DIRepo {
-			get { return diRepo; }
+		public int AddPerClick() {
+			return this.diRepo.AddPerClick ();
 		}
+
 	}
 }
 

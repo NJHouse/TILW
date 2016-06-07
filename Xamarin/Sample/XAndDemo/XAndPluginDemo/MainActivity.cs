@@ -17,12 +17,15 @@ namespace XAndPluginDemo
 			// Set our view from the "main" layout resource
 			SetContentView (Resource.Layout.Main);
 
+			/*
 			IDiCount diCount;
 
 			using (var scope = App.Container.BeginLifetimeScope ()) 
 			{
 				diCount  = scope.Resolve<IDiCount> ();
 			}
+			*/
+			var diCount = App.Container.Resolve<MainModel> ();
 
 			// Get our button from the layout resource,
 			// and attach an event to it

@@ -1,11 +1,11 @@
 ﻿<Properties StartupItem="XAndPluginDemo\XAndPluginDemo.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.42f790088af89fc5" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="XAndPluginDemo\MainActivity.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XAndPluginDemo\MainModel.cs">
     <Files>
-      <File FileName="XAndPluginDemo\MainActivity.cs" Line="30" Column="4" />
-      <File FileName="XAndPluginDemo\IDiCount.cs" Line="7" Column="3" />
+      <File FileName="XAndPluginDemo\MainActivity.cs" Line="25" Column="5" />
+      <File FileName="XAndPluginDemo\IDiCount.cs" Line="1" Column="1" />
       <File FileName="XAndPluginDemo\DiCount.cs" Line="13" Column="3" />
-      <File FileName="XAndPluginDemo\App.cs" Line="33" Column="1" />
+      <File FileName="XAndPluginDemo\App.cs" Line="33" Column="39" />
       <File FileName="XAndPluginDemo\MainModel.cs" Line="20" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
