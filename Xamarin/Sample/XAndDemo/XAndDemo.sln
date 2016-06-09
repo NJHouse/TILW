@@ -5,6 +5,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XAndDemo", "XAndDemo\XAndDe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XAndPluginDemo", "XAndPluginDemo\XAndPluginDemo.csproj", "{507C2D6D-DCF4-4773-9A90-55882980685B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PackageDemo", "PackageDemo", "{AB0686BC-A1AB-4654-A2DE-6CBD8A8B4A8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutofacDemo", "AutofacDemo\AutofacDemo.csproj", "{D4F1F90F-2714-4E25-B4E3-65FE27EFEC26}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,5 +23,12 @@ Global
 		{507C2D6D-DCF4-4773-9A90-55882980685B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{507C2D6D-DCF4-4773-9A90-55882980685B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{507C2D6D-DCF4-4773-9A90-55882980685B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4F1F90F-2714-4E25-B4E3-65FE27EFEC26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4F1F90F-2714-4E25-B4E3-65FE27EFEC26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4F1F90F-2714-4E25-B4E3-65FE27EFEC26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4F1F90F-2714-4E25-B4E3-65FE27EFEC26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D4F1F90F-2714-4E25-B4E3-65FE27EFEC26} = {AB0686BC-A1AB-4654-A2DE-6CBD8A8B4A8B}
 	EndGlobalSection
 EndGlobal

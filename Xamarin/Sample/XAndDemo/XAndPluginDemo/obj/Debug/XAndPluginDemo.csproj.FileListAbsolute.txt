@@ -16,5 +16,15 @@ D:\JUNSANG\Document\TIL\Xamarin\Sample\XAndDemo\XAndPluginDemo\obj\Debug\res\mip
 D:\JUNSANG\Document\TIL\Xamarin\Sample\XAndDemo\XAndPluginDemo\obj\Debug\res\mipmap-xxxhdpi\icon.png
 D:\JUNSANG\Document\TIL\Xamarin\Sample\XAndDemo\XAndPluginDemo\obj\Debug\R.cs.flag
 D:\JUNSANG\Document\TIL\Xamarin\Sample\XAndDemo\XAndPluginDemo\obj\Debug\uploadflags.txt
+D:\JUNSANG\Document\TIL\Xamarin\Sample\XAndDemo\XAndPluginDemo\bin\Debug\XAndPluginDemo.dll.mdb
+D:\JUNSANG\Document\TIL\Xamarin\Sample\XAndDemo\XAndPluginDemo\obj\Debug\XAndPluginDemo.csprojResolveAssemblyReference.cache
+D:\JUNSANG\Document\TIL\Xamarin\Sample\XAndDemo\XAndPluginDemo\bin\Debug\Mono.Android.dll.mdb
+D:\JUNSANG\Document\TIL\Xamarin\Sample\XAndDemo\XAndPluginDemo\bin\Debug\mscorlib.dll.mdb
+D:\JUNSANG\Document\TIL\Xamarin\Sample\XAndDemo\XAndPluginDemo\bin\Debug\System.Core.dll.mdb
+D:\JUNSANG\Document\TIL\Xamarin\Sample\XAndDemo\XAndPluginDemo\bin\Debug\System.dll.mdb
+D:\JUNSANG\Document\TIL\Xamarin\Sample\XAndDemo\XAndPluginDemo\bin\Debug\System.Runtime.Serialization.dll.mdb
+D:\JUNSANG\Document\TIL\Xamarin\Sample\XAndDemo\XAndPluginDemo\bin\Debug\System.ServiceModel.Internals.dll.mdb
+D:\JUNSANG\Document\TIL\Xamarin\Sample\XAndDemo\XAndPluginDemo\bin\Debug\System.Xml.dll.mdb
+D:\JUNSANG\Document\TIL\Xamarin\Sample\XAndDemo\XAndPluginDemo\bin\Debug\XAndPluginDemo.dllXAndPluginDemo.dll.mdb
 D:\JUNSANG\Document\TIL\Xamarin\Sample\XAndDemo\XAndPluginDemo\obj\Debug\XAndPluginDemo.dll.mdb
 D:\JUNSANG\Document\TIL\Xamarin\Sample\XAndDemo\XAndPluginDemo\bin\Debug\XAndPluginDemo.dll.mdb

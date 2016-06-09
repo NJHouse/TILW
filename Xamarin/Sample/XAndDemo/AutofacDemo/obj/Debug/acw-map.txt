@@ -1,0 +1,4 @@
+AutofacDemo.MainActivity, AutofacDemo;md50e86d37062a622d84a5e4ae205e21135.MainActivity
+AutofacDemo.MainActivity, AutofacDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md50e86d37062a622d84a5e4ae205e21135.MainActivity
+AutofacDemo.MainActivity;md50e86d37062a622d84a5e4ae205e21135.MainActivity
+autofacdemo.MainActivity;md50e86d37062a622d84a5e4ae205e21135.MainActivity

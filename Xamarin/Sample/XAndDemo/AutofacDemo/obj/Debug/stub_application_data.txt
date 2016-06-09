@@ -1,0 +1,2 @@
+android.app.Application
+kr.njhouse.autofac.autofacdemo
