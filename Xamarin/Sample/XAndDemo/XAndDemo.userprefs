@@ -6,15 +6,12 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.XAndPluginDemo PreferredExecutionTarget="Android.Nexus 4 (Lollipop)" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="XAndPluginDemo\App.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AutofacDemo\AddRepository.cs">
     <Files>
-      <File FileName="XAndPluginDemo\MainActivity.cs" Line="48" Column="1" />
-      <File FileName="XAndPluginDemo\IDiCount.cs" Line="1" Column="1" />
-      <File FileName="XAndPluginDemo\DiCount.cs" Line="13" Column="3" />
-      <File FileName="XAndPluginDemo\App.cs" Line="38" Column="1" />
-      <File FileName="XAndPluginDemo\MainModel.cs" Line="13" Column="3" />
-      <File FileName="AutofacDemo\MainActivity.cs" Line="29" Column="1" />
+      <File FileName="AutofacDemo\IAddRepository.cs" Line="2" Column="1" />
+      <File FileName="XAndPluginDemo\IDiCount.cs" Line="7" Column="21" />
+      <File FileName="AutofacDemo\AddRepository.cs" Line="12" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.PackageDemo.AutofacDemo AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.42f790088af89fc5" />
+  <MonoDevelop.Ide.ItemProperties.PackageDemo.AutofacDemo AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Nexus 4 (Lollipop)" />
 </Properties>
