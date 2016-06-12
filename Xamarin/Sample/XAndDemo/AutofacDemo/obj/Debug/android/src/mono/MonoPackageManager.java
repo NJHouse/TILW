@@ -99,6 +99,7 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "AutofacDemo.dll" comes first in this list. */
 		"AutofacDemo.dll",
+		"Autofac.dll",
 		"Java.Interop.dll",
 		"System.Threading.dll",
 		"System.Runtime.dll",

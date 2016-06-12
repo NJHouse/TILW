@@ -1,6 +1,7 @@
 ﻿using Android.App;
 using Android.Widget;
 using Android.OS;
+using Autofac;
 
 namespace AutofacDemo
 {
@@ -16,11 +17,11 @@ namespace AutofacDemo
 			// Set our view from the "main" layout resource
 			SetContentView(Resource.Layout.Main);
 
-			// Get our button from the layout resource,
-			// and attach an event to it
+			var mainmodel = App.Container.Resolve<MainModel>();
+
 			Button button = FindViewById<Button>(Resource.Id.myButton);
 
-			button.Click += delegate { button.Text = string.Format("{0} clicks!", count++); };
+			button.Click += delegate { button.Text = string.Format("{0} clicks!", mainmodel.AddCount()); };
 		}
 	}
 }

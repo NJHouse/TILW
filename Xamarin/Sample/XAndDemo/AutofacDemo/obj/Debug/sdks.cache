@@ -2,18 +2,18 @@
 <Sdk>
   <AndroidApiLevel>23</AndroidApiLevel>
   <AndroidApiLevelName>23</AndroidApiLevelName>
-  <AndroidNdkPath>C:\Users\boxca\Documents\Android\ndk\android-ndk-r10e</AndroidNdkPath>
-  <AndroidSdkBuildToolsPath>D:\SmartLearn\MiddleWare\AndroidSdk\sdk\build-tools\23.0.0</AndroidSdkBuildToolsPath>
-  <AndroidSdkBuildToolsBinPath>D:\SmartLearn\MiddleWare\AndroidSdk\sdk\build-tools\23.0.0</AndroidSdkBuildToolsBinPath>
-  <AndroidSdkPath>D:\SmartLearn\MiddleWare\AndroidSdk\sdk</AndroidSdkPath>
-  <JavaSdkPath>D:\JUNSANG\MiddleWare\jdk\jdk1.8.0_92</JavaSdkPath>
+  <AndroidNdkPath>E:\JUNSANG\MIddleWare\Android-SDK\NDK\android-ndk-r10e</AndroidNdkPath>
+  <AndroidSdkBuildToolsPath>E:\JUNSANG\MIddleWare\Android-SDK\sdk2\build-tools\23.0.3</AndroidSdkBuildToolsPath>
+  <AndroidSdkBuildToolsBinPath>E:\JUNSANG\MIddleWare\Android-SDK\sdk2\build-tools\23.0.3</AndroidSdkBuildToolsBinPath>
+  <AndroidSdkPath>E:\JUNSANG\MIddleWare\Android-SDK\sdk2</AndroidSdkPath>
+  <JavaSdkPath>E:\JUNSANG\MIddleWare\Android-SDK\JDK\jdk1.8.0_65</JavaSdkPath>
   <MonoAndroidBinPath>C:\Program Files (x86)\MSBuild\Xamarin\Android</MonoAndroidBinPath>
   <MonoAndroidToolsPath>C:\Program Files (x86)\MSBuild\Xamarin\Android</MonoAndroidToolsPath>
   <ReferenceAssemblyPaths>
     <ReferenceAssemblyPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\</ReferenceAssemblyPath>
   </ReferenceAssemblyPaths>
   <TargetFrameworkVersion>v6.0</TargetFrameworkVersion>
-  <ZipAlignPath>D:\SmartLearn\MiddleWare\AndroidSdk\sdk\build-tools\23.0.0</ZipAlignPath>
+  <ZipAlignPath>E:\JUNSANG\MIddleWare\Android-SDK\sdk2\build-tools\23.0.3</ZipAlignPath>
   <MonoAndroidIncludePath />
   <SupportedApiLevel>23</SupportedApiLevel>
   <AndroidSequencePointsMode>None</AndroidSequencePointsMode>

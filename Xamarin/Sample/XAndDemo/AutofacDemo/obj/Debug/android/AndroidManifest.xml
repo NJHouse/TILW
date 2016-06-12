@@ -4,7 +4,7 @@
   <uses-sdk android:minSdkVersion="15" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-  <application android:allowBackup="true" android:icon="@mipmap/icon" android:label="@string/app_name" android:theme="@android:style/Theme.Material.Light.DarkActionBar" android:name="android.app.Application" android:debuggable="true">
+  <application android:allowBackup="true" android:icon="@mipmap/icon" android:label="@string/app_name" android:theme="@android:style/Theme.Material.Light.DarkActionBar" android:debuggable="true" android:name="md50e86d37062a622d84a5e4ae205e21135.App">
     <activity android:icon="@mipmap/icon" android:label="AutofacDemo" android:name="md50e86d37062a622d84a5e4ae205e21135.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />

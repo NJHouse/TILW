@@ -1,10 +1,13 @@
 ﻿using System;
 namespace AutofacDemo
 {
-	public class AddRepository
+	public class AddRepository : IAddRepository
 	{
-		public AddRepository()
+		int count = 0;
+
+		public int AddCount()
 		{
+			return ++count;
 		}
 	}
 }

@@ -4,7 +4,7 @@ namespace AutofacDemo
 {
 	public interface IAddRepository
 	{
-		int AddPerClick();
+		int AddCount();
 	}
 }
 

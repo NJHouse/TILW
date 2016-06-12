@@ -76,8 +76,118 @@ public interface IAddRepository
 >AddRepository.cs
 
 ```CSharp
+public class AddRepository : IAddRepository
+{
+    int count = 0;
 
+    public int AddCount()
+    {
+        return ++count;
+    }
+}
 ```
+
+이전에 작성했던 인터페이스를 상속합니다. 그리고 증가값을 담는 변수 `count` 를 선언하고 
+0으로 초기화 합니다. 인터페이스 파일에서 정의했던 증가값을 반환하는 메서드를 작성합니다.
+
+이제 의존성 사용을 위한 각각의 타입을 등록하는 파일을 만들어 보겠습니다.<br />
+새 클래스의 이름을 `App.cs` 라고 입력해 생성합니다.
+
+>App.cs
+
+```CSharp
+using System;
+using Android.App;
+using Android.Runtime;
+using Autofac;
+
+namespace AutofacDemo
+{
+    #if DEBUG
+    [Application(Debuggable = true, Icon = "@mipmap/icon")]
+    #else
+    [Application(Debuggable = false, Icon = "@mipmap/icon")]
+    #endif
+    public class App : Application
+    {
+        var builder = new ContainerBuilder();
+        builder.RegisterType<AddRepository>().As<IAddRepository>();
+        builder.RegisterType<MainModel>();
+
+        App.Container = builder.Build();
+
+        base.OnCreate();
+    }
+}
+```
+
+우선 `Application` 클래스를 상속시킵니다. <br/>
+의존성을 가져올 수 있게 하기 위한 정적 변수인 `Container` 를 만듭니다.<br/>
+`AddRepository` 클래스는 `IAddRepository` 라고 등록하는 코드가 있구요.<br/>
+그 타입을 생성자를 통해 주입 받을 모델의 타입도 선언하고 있습니다. (아직 구현하지 않았죠)
+
+`MainModel.cs` 을 만들어 줍니다.
+
+>MainModel.cs
+
+```CSharp
+public class MainModel
+{
+    private IAddRepository addRepo;
+
+    public MainModel(IAddRepository addParam)
+    {
+        this.addRepo = addParam;
+    }
+
+    public int AddCount()
+    {
+        return this.addRepo.AddCount();
+    }
+}
+```
+
+이 모델에서 중점적으로 봐야 할 부분은 생성자를 통해서 의존성을 가져온다는 것입니다.<br/>
+Activity 에서 상용할 `AddCount` 메서드를 작성한뒤에 의존성을 통해 카우트를 합니다.
+
+
+이제 마지막으로 `MainActivity.cs` 에서 모델을 가져와 처음 얘기했던 `count++` 부분을<br/>
+대체해 보겠습니다.
+
+>MainActivity.cs
+
+```CSharp
+using Autofac;
+
+namespace AutofacDemo
+{
+    protected override void OnCreate (Bundle savedInstanceState)
+    {
+        base.OnCreate (savedInstanceState);
+
+        var mainmodel = App.Container.Resolve<MainModel> ();
+
+        Button button = FindViewById<Button> (Resource.Id.myButton);
+
+        button.Click += delegate {
+            button.Text = string.Format("{0} clicks!", mainmodel.AddCount());
+        };
+    }
+}    
+```
+
+`App.Container.Resolve<MainModel>` 를 통해서 모델 객체를 가져와 `count++` 을 <br/>
+`mainmodel.AddCount()` 로 대체하였습니다.
+
+그리고 나서 실행을 합니다. 그리고 버튼을 누르면 기존과 같이 1씩 증가 하는것을 볼 수 있습니다.<br />
+
+이상 Xamarin.Android 에서 `Autofac` 을 사용하는 간단한 예제를 만들어 봤습니다.
+
+####참조
+
+소스 URL : https://github.com/NJHouse/TILW/tree/develop/Xamarin/Sample/XAndDemo/AutofacDemo
+
+
 
 
 
