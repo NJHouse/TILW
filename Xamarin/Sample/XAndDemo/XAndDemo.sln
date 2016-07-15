@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PackageDemo", "PackageDemo"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutofacDemo", "AutofacDemo\AutofacDemo.csproj", "{D4F1F90F-2714-4E25-B4E3-65FE27EFEC26}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealmDemo", "AutofacDemo\RealmDemo\RealmDemo.csproj", "{F5BC784B-5514-426A-A7C3-E81B94338004}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,8 +29,13 @@ Global
 		{D4F1F90F-2714-4E25-B4E3-65FE27EFEC26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4F1F90F-2714-4E25-B4E3-65FE27EFEC26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4F1F90F-2714-4E25-B4E3-65FE27EFEC26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5BC784B-5514-426A-A7C3-E81B94338004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5BC784B-5514-426A-A7C3-E81B94338004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5BC784B-5514-426A-A7C3-E81B94338004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5BC784B-5514-426A-A7C3-E81B94338004}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D4F1F90F-2714-4E25-B4E3-65FE27EFEC26} = {AB0686BC-A1AB-4654-A2DE-6CBD8A8B4A8B}
+		{F5BC784B-5514-426A-A7C3-E81B94338004} = {AB0686BC-A1AB-4654-A2DE-6CBD8A8B4A8B}
 	EndGlobalSection
 EndGlobal

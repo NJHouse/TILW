@@ -5,18 +5,16 @@
  * should not be modified by hand.
  */
 
-package kr.njhouse.plugin.xandplugindemo;
+package kr.njhouse.realm.realmdemo;
 
 public final class R {
     public static final class attr {
     }
     public static final class id {
-        public static final int myButton=0x7f050001;
-        public static final int textView=0x7f050000;
+        public static final int myButton=0x7f050000;
     }
     public static final class layout {
-        public static final int locnoti=0x7f030000;
-        public static final int main=0x7f030001;
+        public static final int main=0x7f030000;
     }
     public static final class mipmap {
         public static final int icon=0x7f020000;
