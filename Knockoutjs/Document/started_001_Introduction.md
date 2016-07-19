@@ -58,3 +58,5 @@ There are <span data-bind="text: myItems().length"></span> items
 방법을 제공합니다. KO는 jQuery에 의존하지 않지만, 동시에 jQuery를 사용할 수 있고, 애니메이션 전환 등에 대해서 유용하게
 쓰입니다.
 
+원본
+- <a href="http://knockoutjs.com/documentation/introduction.html" target="_blank">http://knockoutjs.com/documentation/introduction.html</a>
