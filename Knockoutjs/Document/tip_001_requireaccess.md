@@ -53,7 +53,7 @@ require.config({
 
                     self.popup = function() {
                         window.open('Popup.html', 'pop', width=300,height=200');
-                    }
+                    };
                 };
 
                 ko.applyBindings(new ViewModel);
