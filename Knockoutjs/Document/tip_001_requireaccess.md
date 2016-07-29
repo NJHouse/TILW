@@ -39,9 +39,9 @@ require.config({
         <h1>RequireJS Popup Test</h1>
         <button data-bind="click: popup">Popup</button>
 
-        <script src="/js/require.js"></script>
-        <script src="/js/main.js"></script>
-        <script>
+        <script type="text/javascript" src="/js/require.js"></script>
+        <script type="text/javascript" src="/js/main.js"></script>
+        <script type="text/javascript">
             "use strict";
 
             require([
@@ -82,9 +82,9 @@ require.config({
 
         <button>Opner Access</button>
 
-        <script src="/js/require.js"></script>
-        <script src="/js/main.js"></script>
-        <script>
+        <script type="text/javascript" src="/js/require.js"></script>
+        <script type="text/javascript" src="/js/main.js"></script>
+        <script type="text/javascript">
             "use strict";
 
             require([
@@ -177,9 +177,9 @@ function(ko) {
         <h1>RequireJS Popup Test</h1>
         <button data-bind="click: popup">Popup</button>
 
-        <script src="/js/require.js"></script>
-        <script src="/js/main.js"></script>
-        <script>
+        <script type="text/javascript" src="/js/require.js"></script>
+        <script type="text/javascript" src="/js/main.js"></script>
+        <script type="text/javascript">
             "use strict";
 
             require([
