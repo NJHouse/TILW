@@ -33,7 +33,7 @@ require.config({
 <!DOCTYPE html>
 <html lang=ko>
     <head>
-        <title>KO With RequireJS 팝업에서 접근하기</title>
+        <title>KO With RequireJS>팝업에서 접근하기</title>
     </head>
     <body>
         <h1>RequireJS Popup Test</h1>
@@ -75,7 +75,7 @@ require.config({
 <!DOCTYPE html>
 <html lang=ko>
     <head>
-        <title>KO With RequireJS 팝업에서 접근하기</title>
+        <title>KO With RequireJS>팝업에서 접근하기</title>
     </head>
     <body>
         <h1>RequireJS Opener Test</h1>
@@ -171,7 +171,7 @@ function(ko) {
 <!DOCTYPE html>
 <html lang=ko>
     <head>
-        <title>KO With RequireJS 팝업에서 접근하기</title>
+        <title>KO With RequireJS>팝업에서 접근하기</title>
     </head>
     <body>
         <h1>RequireJS Popup Test</h1>
