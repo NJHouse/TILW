@@ -113,7 +113,7 @@ require.config({
 
 > index.html 에 `AccessCall`, `self.AccessCall` 메서드 추가
 
-```Html
+```Javascript
 ... 생략
 require([    
     ...
@@ -144,7 +144,7 @@ SCRIPT5002: Function expected (다르게 표시되기도 합니다.)
 
 > index.html 에 `self` 전역설정
 
-```Html
+```Javascript
 ... 생략
 require([    
     ...
