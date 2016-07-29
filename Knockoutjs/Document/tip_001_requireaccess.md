@@ -65,7 +65,7 @@ require.config({
     </body>
 </html>
 ```
-
+ 
 팝업창도 만듭니다. 부모창에 접근하는 `OpenerCall` 메서드도 추가 합니다. 부모창에 불리워질 메서드는 `AccessCall`
 이란 메서드가 있다고 가정하고 호출하는 코드를 작성합니다.
 
@@ -191,7 +191,7 @@ function(ko) {
 
                     // -- 전역설정
                     window.self = self;
-                    
+
                     self.popup = function() {
                         window.open('Popup.html', 'pop', width=300,height=200');
                     }
