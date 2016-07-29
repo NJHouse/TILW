@@ -52,7 +52,7 @@ require.config({
                     var self = this;
 
                     self.popup = function() {
-                        window.open('Popup.html', 'pop', width=300,height=200');
+                        window.open('Popup.html', 'pop', 'width=300,height=200');
                     };
                 };
 
@@ -193,7 +193,7 @@ function(ko) {
                     window.self = self;
 
                     self.popup = function() {
-                        window.open('Popup.html', 'pop', width=300,height=200');
+                        window.open('Popup.html', 'pop', 'width=300,height=200');
                     }
 
                     self.AccessCall = function() {
