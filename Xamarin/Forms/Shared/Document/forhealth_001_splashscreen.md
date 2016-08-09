@@ -33,4 +33,17 @@ Cannot start debugging: Unhandled exception while trying to connect to 127.0.0.1
 메서드를 찾을 수 없습니다. 'System.IAsyncResult Mono.Debugger.Soft.VirtualMachineManager.BeginConnect(System.Net.IPEndPoint, System.Net.IPEndPoint, System.AsyncCallback, System.IO.TextWriter)'
 ```
 
+![그림4](https://s9.postimg.org/8kw8apw9b/forhealth_splashscreen003.png)
+
+솔루션 탐색기로 갑니다. 안드로이드 프로젝트에서 오른쪽 마우스 클릭 후 속성으로 들어갑니다. 
+
+![그림5](https://s10.postimg.org/5m2ztq7op/forhealth_splashscreen004.png)
+
+Application 영역 `Target Android version:` 을 선택을 안했네요 ^^; 타겟을 선택하고 다시한번 빌드 해보겠습니다.
+
+![그림6](https://s9.postimg.org/n9huwz4ov/forhealth_splashscreen6.gif)
+
+짜잔~! 별건 아니지만, 첫 빌드 성공입니다~ 
+
+
 
