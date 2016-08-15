@@ -4,7 +4,7 @@
 NJHouse 입니다. `생각없이 앱 개발하기` 를 붙인 이유는 말 그대로 미리 기획된게 아닌 그때 그때 필요한
 기능을 붙이며 개발해 보려고 합니다. 주제만 정해봤습니다. 병원 및 약국 조회(이미 많은 앱들이 나와 았죠 ㅎㅎ)
 앱을 만들면서 `Xamarin.Forms Shared` 에 대해 알아보려고 합니다. ㅎㅎ 잘 될런지 모르겠지만, 해보는거죠.
-전 맥이 없는 관계로 Android기준으로 개발해 보겠습니다.
+전 맥이 없는 관계로 Android, `VS2015 Community` 기준으로 개발해 보겠습니다.
 
 #### 앱 타이틀(가제)
 제목은 짓고 가야겠죠... 이거 참 어려운 일인데요. 그래서 가제로 일단 짓고 좋은 타이틀이 생각나면 바꿔보죠.
@@ -43,7 +43,34 @@ Application 영역 `Target Android version:` 을 선택을 안했네요 ^^; 타�
 
 ![그림6](https://s9.postimg.org/n9huwz4ov/forhealth_splashscreen6.gif)
 
-짜잔~! 별건 아니지만, 첫 빌드 성공입니다~ 
+이제 잘 되는걸 확인할 수 있습니다.
+
+#### AndroidManifest.xml 설정
+매니페스트는 앱에 대한 정보를 기술하는 명세서로 생각하면 될거 같습니다. 그 안에는 어플리케이션 이름 패키지명 버전정보
+그리고 권한 설정등을 할 수 있습니다.<br/>
+`솔루션 탐색기`내에 안드로이드 프로젝트(전 `ForHealthFormsShared.Droid`입니다.)에서 오른쪽 마우스 클릭후 `속성`을
+선택 합니다. 
+
+![그림7](https://s4.postimg.org/g93zhbxz1/forhealth_splashscreen001_04.png)
+
+- Application name: 에는 `어디?병원약국`
+- Package name: 에는 `kr.njhouse.forhealth`
+- Version number: 에는 `1`
+
+나머지는 다음에 할때 설정하고 지금은 이 세가지만 입력 후 저장하고 닫습니다.
+
+#### Splash Screen 만들기
+![그림8](https://s4.postimg.org/6ilv69ptp/forhealth_splashscreen001_05.png)
+
+페이지 구성은 위 그림과 같습니다. 2:1:7 비율이고 중간 영역에 타이틀을 하단영역 중간에 프로그래스바(링)을 넣고 
+3초 후 메인 페이지로 네비게이션 하겠습니다.
+
+![그림9](https://s3.postimg.org/cx5ie10z7/forhealth_splashscreen001_06.png)
+
+로딩시 노출되는 앱타이틀을 제거하고 배경색을 지정하겠습니다.
+
+
+
 
 
 
