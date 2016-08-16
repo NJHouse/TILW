@@ -1,27 +1,28 @@
 ## [생각없이 앱 개발하기] 개요 & Splash Screen
 
 안녕하세요.<br/>
-NJHouse 입니다. `생각없이 앱 개발하기` 를 붙인 이유는 말 그대로 미리 기획된게 아닌 그때 그때 필요한
-기능을 붙이며 개발해 보려고 합니다. 주제만 정해봤습니다. 병원 및 약국 조회(이미 많은 앱들이 나와 았죠 ㅎㅎ)
-앱을 만들면서 `Xamarin.Forms Shared` 에 대해 알아보려고 합니다. ㅎㅎ 잘 될런지 모르겠지만, 해보는거죠.
+NJHouse 입니다. Xamarin.Forms PCL vs Shared 논쟁이 많이 있는데요. 저도 그 부분에 대한 명확한 구분이 없어 작은 
+앱을 개발해 보면서 알아보려고 합니다. `생각없이 앱 개발하기` 를 붙인 이유는 말 그대로 미리 기획된게 아닌 그때 그때 필요한
+기능을 붙이며 개발해 보려고 합니다. 주제만 정해봤습니다. 병원 및 약국 조회(이미 많은 앱들이 나와 았죠.)
 전 맥이 없는 관계로 Android, `VS2015 Community` 기준으로 개발해 보겠습니다.
 
 #### 앱 타이틀(가제)
-제목은 짓고 가야겠죠... 이거 참 어려운 일인데요. 그래서 가제로 일단 짓고 좋은 타이틀이 생각나면 바꿔보죠.
-전... `어디?병원약국` 로 하고 진행해 보겠습니다. 그리고 패키지명은 `kr.njhouse.forhealth`로
+제목은 짓고 가야겠죠. 이거 참 어려운 일인데요. 그래서 가제로 일단 짓고 좋은 타이틀이 생각나면 바꿔보죠.
+`어디?병원약국` 으로 하고 진행해 보겠습니다. 그리고 패키지명은 `kr.njhouse.forhealth`로
 하겠습니다.
 
 #### 프로젝트생성
 ![그림1](http://i.imgur.com/JjN771N.png)
 Visual Studio 2015 를 열고 `새 프로젝트 > 템플릿 > Visual C# > Cross-Platform > Blank App (Xamarin.Forms Shared)`
-를 선택하고 이름을 `ForHealthFormsSahred` 로 하고 경로를 지정 후 (Git 으로 버전 관리를 하려면 `새 Git 리포지토리 만들기` 체크 박스에 체크를 합니다`)확인을 합니다.
+를 선택하고 이름을 `ForHealthFormsSahred` 로 하고 경로를 지정 후 (Git 으로 버전 관리를 하려면 `새 Git 리포지토리 만들기` 체크 박스에 체크를 합니다`) 
+확인을 클릭 합니다.
 
 ![그림2](http://i.imgur.com/4ZQSsfS.png)<br/>
 약간의 시간이 흐르고 나면 위 그림과 같이 5개의 프로젝트가 생성됩니다. (여기서 잠깐 카페 회워님중 `
 lightdoll`님께서 알려주신 팁인데요. 사용하지 않는 프로젝트는 필요없는 로드를 제한 할 수 있습니다.)
 
 한번 빌드를 해볼까요? 전 에뮬레이터가 아닌 갤럭시 S3를 USB로 연결해 결과를 확인해 보겠습니다.<br/>
-헉! 에러가 발생하네요... ㅡㅡ;
+에러(크래시)가 발생합니다.
 
 ![그림3](http://i.imgur.com/rXqsZi1.gif)
 
@@ -39,7 +40,7 @@ Cannot start debugging: Unhandled exception while trying to connect to 127.0.0.1
 
 ![그림5](https://s10.postimg.org/5m2ztq7op/forhealth_splashscreen004.png)
 
-Application 영역 `Target Android version:` 을 선택을 안했네요 ^^; 타겟을 선택하고 다시한번 빌드 해보겠습니다.
+Application 영역 `Target Android version:` 을 선택을 안했네요. 타겟을 선택하고 다시한번 빌드 해보겠습니다.
 
 ![그림6](https://s9.postimg.org/n9huwz4ov/forhealth_splashscreen6.gif)
 
@@ -69,7 +70,7 @@ Application 영역 `Target Android version:` 을 선택을 안했네요 ^^; 타�
 
 ![그림9](https://s3.postimg.org/xu258awgj/forhealth_splashscreen001_07.png)
 
-`Android` > `Activity` 선택하고 나서 `SplashScreen.cs` 입역하고 `추가`버튼을 클릭합니다.
+`Android` > `Activity` 선택하고 나서 `SplashScreen.cs` 입력하고 `추가`버튼을 클릭합니다.
 
 > SplashScreen.cs 생성
 
@@ -161,7 +162,7 @@ namespace ForHealthFormsShared.Droid
 실행해 보면 위 그림과 같이 나타납니다. 눈대중으로 봐도... 2:1:7 인거 같습니다.
 
 실행해 보니 어색한 부분이 좀 있는거 같습니다. 실행할때 상단에 타이틀바가 크게 나타나는 부분과 SplashScreen.cs
-액티비티로 넘어가는 부분입니다. 이 부분을 좀 수정해 보겠습니다.
+액티비티로 넘어갈때 배경색이 하얀색에서 `SplashScreen`으로 페이지변경되는 부분입니다. 이 부분을 좀 수정해 보겠습니다.
 
 `styles.xml` 파일을 통해 해결해 보죠.
 
