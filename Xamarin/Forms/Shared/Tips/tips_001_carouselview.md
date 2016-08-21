@@ -3,15 +3,28 @@
 예전에 부분 Carousel 이 안되서 많이 고민한 적이 있었습니다. 앱에서 가장 많이 활용되는 부분인데, 이 중요한
 기능이 안되면 작업할때 많은 벽에 부딪히겠구나 라고 생각되어서 네이티브로 가야하나 생각할 정도로 저 개인적으로
 는 중요한 기능이라고 생각했습니다.
-그런데 최근에 NuGet 에 `Xamarin.Forms.CarouselView` 라는 것이 등장하더군요. 앞으로 더욱더 네이티브 기능에
-가깝게 접근 및 발전 할 거 같단 생각을 많이 하게됐습니다.
-아직 Preview2 버전이긴 합니다만, 곧 릴리즈 될거라 기대해 보면서.. 폰에서 어떻게 보일지 궁금해 예제를 한번
+그런데 최근에 NuGet 에 `Xamarin.Forms.CarouselView` 라는 것이 등장하더군요. **Authors** 가 `Xamarin, Inc.`인
+것으로 보아 **Xamarin(MS)** 에서 개발하는거 같구요. 현재는 Preview2 버전이라서 따로 Nuget 으로
+받아야 합니다만(혹시 Stable 이 아닌 버전에서는 탑재되어 있을 수도...), 정식 버전이 되면
+기본 탑재될거 같단 생각이 드네요. 
+곧 릴리즈 될거라 기대해 보면서.. 폰에서 어떻게 보일지 궁금해 예제를 한번
 따라해봤습니다.
 
 #### 프로젝트 생성
 프로젝트 생성하는 방법은 생략하겠습니다. 저는 **Xamarin.Forms Shared** 프로젝트로 생성했습니다.
 
+#### Nuget 설치
+안드로이드 프로젝트(저는 **XamarinResolve.Droid**입니다)내 **참조**에서 오른쪽 마우스 클릭
+`Nuget 패키지 관리`를 선택합니다.
+
+![그림1](https://s3.postimg.org/d0y1v4x0j/tips_001_carouselview_01.png) 
+
+Nuget 패키지 관리에서 `시험판 포함`에 체크후 검색폼에 **xamarin.forms.CarouselView**라고 검색 
+후 그림과 같이 검색되면 설치버튼을 통해 설치 합니다.
+
 #### 모델 구성
+![그림2](https://s9.postimg.org/pietzhtnz/tips_001_carouselview_02.png)
+
 **Shared** 프로젝트에 다음과 같이 구성합니다.
 1. `Models` 폴더를 생성합니다.
 2. Models 폴더 하위에 `CarouselView` 폴더를 생성합니다.
