@@ -3,7 +3,7 @@
     //"files.encoding": "euckr",
     "editor.fontSize": 13,
     "markdown.styles": [
-        "C:\\Users\\boxca\\AppData\\Roaming\\Code\\User\\markdownpad-github.css"
+        "https://gist.githubusercontent.com/GeorgeHahn/46d809262f3be67ea13e/raw/b66c68934c3c8618a8d0a082cf2c18d3d1c5ff54/Markdownpad-github.css"
     ]
 
 }
