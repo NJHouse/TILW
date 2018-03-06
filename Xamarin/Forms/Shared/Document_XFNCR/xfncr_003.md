@@ -289,7 +289,7 @@ Shared 프로젝트 하위에 **Views** 라는 폴더를 만들고, 그 하위�
 
         <!-- [4] -->
         <Button
-            Text="Global Style"
+            Text="Behind Style"
             Style="{StaticResource BtnBehindStyle}"
             />
     </StackLayout>
@@ -297,4 +297,4 @@ Shared 프로젝트 하위에 **Views** 라는 폴더를 만들고, 그 하위�
 </ContentPage>
 ```
 
-![그림](https://s10.postimg.org/ezizp3amx/xfncr_003_007.png)
+![그림](https://s10.postimg.org/8acg8m761/xfncr_003_008.png)
