@@ -288,10 +288,10 @@ namespace XFNCResolve.Share.Views
 #### Android 실행 ####
 ---
 
-![그림](https://s9.postimg.org/sn13ue3jj/xfncr_005_005.gif)
+![그림](https://github.com/NJHouse/TILW/blob/develop/Xamarin/Forms/Shared/images_XFNCR/xfncr_005/xfncr_005_005.gif?raw=true)
 
 <br/>
 
 #### iOS 실행 ####
 
-![그림](https://s9.postimg.org/nscgszqwf/xfncr_005_006.gif)
+![그림](https://github.com/NJHouse/TILW/blob/develop/Xamarin/Forms/Shared/images_XFNCR/xfncr_005/xfncr_005_006.gif?raw=true)
